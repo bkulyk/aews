@@ -49,6 +49,7 @@ query theClosestWithDetails {
     }
   }
 }
+```
 
 Get Nearby asteroids for the week
 
@@ -74,7 +75,7 @@ run `npm start` to start the server (starts on prt 4000).
 Style Guide
 -----------
 
-Please use the [Airbnb Style Guide](https://github.com/airbnb/javascript) as the basis for our style guide. The Airbnb guid is intended for React and ES6 so some adaptations will need to be made.
+Please use the [Airbnb Style Guide](https://github.com/airbnb/javascript) as the basis for our style guide. The Airbnb guid is intended for React and ES6 so some adaptations were made.
 
 Endpoints
 ---------
