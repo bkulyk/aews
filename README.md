@@ -1,5 +1,5 @@
-GraphQL
-=======
+Armageddon Early Warning System (GraphQL)
+=========================================
 
 Introduction
 ------------
