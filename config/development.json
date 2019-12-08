@@ -1,0 +1,8 @@
+{
+  "logger": {
+    "streams": ["prettyConsole"],
+    "general": {
+      "level": "debug"
+    }
+  }
+}

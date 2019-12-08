@@ -1,0 +1,8 @@
+{
+  "port": 8000,
+  "introspectionEnabled": false,
+  "uiEnabled": false,
+  "request_defaults": {
+    "timeout": 100
+  }
+}

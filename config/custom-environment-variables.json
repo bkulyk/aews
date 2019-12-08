@@ -1,0 +1,7 @@
+{
+  "port": "PORT",
+  "nasa": {
+    "baseUrl": "NASA_API_URL",
+    "apiKey": "NASA_API_KEY"
+  }
+}

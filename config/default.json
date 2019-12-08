@@ -1,0 +1,23 @@
+{
+  "buildNumber": "dev",
+  "port": 4000,
+  "client_id": "graphic",
+  "introspectionEnabled": true,
+  "uiEnabled": true,
+  "logger": {
+    "general": {
+      "name": "graphic",
+      "level": "info"
+    }
+  },
+  "request_defaults": {
+    "timeout": 1000
+  },
+  "cache": {
+    "adapter": "file"
+  },
+  "nasa": {
+    "baseUrl": "https://api.nasa.gov/neo/rest/v1",
+    "apiKey": "DEMO_KEY"
+  }
+}

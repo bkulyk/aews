@@ -1,0 +1,44 @@
+type NearEarthObject {
+  id: ID
+  name: String
+  designation: String
+  absoluteMagnitudeH: Float
+  isPotentiallyHazardousAsteroid: Boolean
+  nasaJplUrl: String
+  estimatedDiameter: EstimatedDiameter
+  closeApproachData: CloseApproachData
+  orbitalData: OrbitalData
+}
+
+type NearEarthObjectSummary {
+  id: ID
+  name: String
+  absoluteMagnitudeH: Float
+  isPotentiallyHazardousAsteroid: Boolean
+  nasaJplUrl: String
+  estimatedDiameter: EstimatedDiameter
+  closeApproachData: CloseApproachData
+
+  nearEarthObject: NearEarthObject
+}
+
+type NearEarthObjectPage {
+  nodes: [NearEarthObjectSummary]
+  pageInfo: NearEarthObjectPageInfo
+}
+
+type NearEarthObjectPageInfo {
+  next: String
+  prev: String
+  count: Int
+}
+
+extend type Query {
+  closestNearEarthObject: NearEarthObjectPage
+
+  getNearEarthObjects: NearEarthObjectPage
+
+  getNearEarthObjectById(
+    id: ID!
+  ): NearEarthObject
+}

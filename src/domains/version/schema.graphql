@@ -1,0 +1,4 @@
+extend type Query {
+  # GraphQL Service version number
+  version: String
+}

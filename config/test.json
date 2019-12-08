@@ -1,0 +1,13 @@
+{
+  "port": 4040,
+  "healthTimeout": 1,
+  "buildNumber": "test",
+  "cache": {
+    "adapter": "file"
+  },
+  "logger": {
+    "general": {
+      "level": "fatal"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "implicit-arrow-linebreak": 0,
+    "no-param-reassign": ["error", { "props": true, "ignorePropertyModificationsFor": ["context", "req"] }]
+  }
+}

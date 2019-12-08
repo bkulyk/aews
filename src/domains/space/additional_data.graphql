@@ -1,0 +1,65 @@
+type OrbitalData {
+  orbitId: ID
+  orbitDeterminationDate: DateTime
+  firstObservationDate: Date
+  lastObservationDate: Date
+  dataArcInDays: Int
+  observationsUsed: Int
+  orbitUncertainty: Int
+  minimumOrbitIntersection: Float
+  jupiterTisserandInvariant: Float
+  epochOsculation: Float
+  eccentricity: Float
+  semiMajorAxis: Float
+  inclination: Float
+  ascendingNodeLongitude: Float
+  orbitalPeriod: Float
+  perihelionDistance: Float
+  perihelionArgument: Float
+  aphelionDistance: Float
+  perihelionTime: Float
+  meanAnomaly: Float
+  meanMotion: Float
+  equinox: String
+  orbitClass: OrbitalClass
+}
+
+type OrbitalClass {
+  orbitClassType: String
+  orbitClassDescription: String
+  orbitClassRange: String
+}
+
+type CloseApproachData {
+  closeApproachDate: Date
+  closeApproachDateFull: DateTime
+  epochDateCloseApproach: Long
+  relativeVelocity: Velocity
+  missDistance: Distance
+  orbitingBody: String
+}
+
+type Velocity {
+  kilometers_per_second: Float
+  kilometers_per_hour: Float
+  miles_per_hour: Float
+}
+
+type Distance {
+  astronomical: Float
+  lunar: Float
+  kilometers: Float
+  miles: Float
+}
+
+type EstimatedDiameter {
+  kilometers: NEODiameter
+  meters: NEODiameter
+  miles: NEODiameter
+  feet: NEODiameter
+}
+
+type NEODiameter {
+  estimatedDiameterMin: Float
+  estimatedDiameterMax: Float
+}
