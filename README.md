@@ -1,8 +1,8 @@
 GraphQL
-===============
+=======
 
-Requirements +  Use Cases
--------------------------
+Introduction
+------------
 
 It happens... one day your species is the top of the food chain, the envy of the ecosystem, an apex predator dictating the pace of life in your corner of the world. But then one day a seemingly random space rock slams into your home planet. Such an event can lead to a mass extinction.  It can really ruin your day.  Luckily, our species (unlike the dinosaurs) has evolved a big brain.  The kind of brain capable of producing an aerospace program.
 
