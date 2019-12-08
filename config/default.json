@@ -4,6 +4,7 @@
   "client_id": "graphic",
   "introspectionEnabled": true,
   "uiEnabled": true,
+  "redirectToUi": true,
   "logger": {
     "general": {
       "name": "graphic",

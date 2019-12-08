@@ -2,6 +2,7 @@
   "port": 8000,
   "introspectionEnabled": false,
   "uiEnabled": false,
+  "redirectToUi": false,
   "request_defaults": {
     "timeout": 100
   }

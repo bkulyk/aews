@@ -4,17 +4,15 @@ GraphQL
 Requirements +  Use Cases
 -------------------------
 
-As an asteroid detector API user I want to see NASA asteroid data transformed to the Armageddon Early Warning Network specification (see attached NASA -> AEWN mapping specification) so that I can create reports.
+It happens... one day your species is the top of the food chain, the envy of the ecosystem, an apex predator dictating the pace of life in your corner of the world. But then one day a seemingly random space rock slams into your home planet. Such an event can lead to a mass extinction.  It can really ruin your day.  Luckily, our species (unlike the dinosaurs) has evolved a big brain.  The kind of brain capable of producing an aerospace program.
 
-As an asteroid detector API user I want a list of all near earth objects for a specific week so that I can see if earth is imperiled that week
-
-As an asteroid detector API user I want the ability to specify which asteroid feed and asteroid lookup properties to display so I can prepare reports based on specific details.
-
-As an asteroid detector API user I would like to make a single request in order to see the 3 closest asteroid misses for a given week and display the asteroid detail properties of my choosing so that I can compile reports.
+Using an API provided by NASA, we can monitor and model our asteroid belt and we can even predict a collision that could potentially end civilization as we know it.
 
 Sample GraphQL Queries
 ----------------------
+
 Get an asteroid by id.
+
 ```graphql
 query myFav{
   getAsteroid(id: 3720000) {
@@ -87,5 +85,5 @@ Endpoints
 | -------------- | ---------------------------------------------------------------------|
 | /graphql       | Endpoint to run graphql queries                                      |
 | /graphiql      | GUI like tool for composing graphql queries and exploring the schema |
-| /diagram       | Dynamically built visualization from the schema                      |
-| /healt         | Check to see if GraphQL is running, for k8s or load balancer         |
+| /diagram       | Dynamically built visualization of the schema                        |
+| /health        | Check to see if GraphQL is running, for k8s or load balancer         |
