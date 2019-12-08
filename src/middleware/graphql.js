@@ -19,7 +19,7 @@ const graphql = graphqlHTTP({
   schema,
   graphiql: false,
   extensions,
-  formatError, // : (e) => { console.log(e); return formatError(e); },
+  customFormatErrorFn: formatError,
   validationRules,
 });
 
