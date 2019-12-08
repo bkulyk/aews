@@ -2,6 +2,7 @@
   "name": "graphic",
   "version": "1.0.0",
   "description": "GraphQL",
+  "repository": "https://github.com/bkulyk/aews.git",
   "scripts": {
     "start": "nodemon src/server.js",
     "test": "lab test -v",
