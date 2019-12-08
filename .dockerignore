@@ -1,5 +1,7 @@
-.git
-node_modules
-.vscode
-coverage
 .env
+.eslintrccoverage
+.git
+.labrc.js
+.vscode
+node_modules
+test
