@@ -6,7 +6,7 @@ const errors = {
 };
 
 const handleNasaErrors = ({ statusCode }) => {
-  throw new (errors[statusCode] || errors.default)({ data: { statusCode }});
+  throw new (errors[statusCode] || errors.default)({ data: { statusCode } });
 };
 
 module.exports = handleNasaErrors;

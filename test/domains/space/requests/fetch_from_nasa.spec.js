@@ -11,12 +11,12 @@ describe('domains/space/requests/fetch_from_nasa', () => {
   nasa.get('/neo/rest/v1/neo/4?api_key=DEMO_KEY').reply(200, '{ "mock_data": "neo 4" }');
 
   it('should fetch data from the nasa api', async () => {
-    const { mockData: result } = await subject(context, 'feed');
+    const { mock_data: result } = await subject(context, 'feed');
     expect(result).to.equal('mock_value');
   });
 
   it('should allow path parameters', async () => {
-    const { mockData: result } = await subject(context, 'neo/{someId}', { someId: 4 });
+    const { mock_data: result } = await subject(context, 'neo/{someId}', { someId: 4 });
     expect(result).to.equal('neo 4');
   });
 });

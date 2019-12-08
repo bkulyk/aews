@@ -1,0 +1,48 @@
+{
+  "near_earth_objects": {
+    "yesterday": [
+      {
+        "name": "Homer",
+        "close_approach_data": {
+          "miss_distance": {
+            "kilometers": 88
+          }
+        }
+      },
+      {
+        "name": "Marge",
+        "close_approach_data": {
+          "miss_distance": {
+            "kilometers": 55
+          }
+        }
+      }
+    ],
+    "2 days ago": [
+      {
+        "name": "Bart",
+        "close_approach_data": {
+          "miss_distance": {
+            "kilometers": 99
+          }
+        }
+      },
+      {
+        "name": "Maggie",
+        "close_approach_data": {
+          "miss_distance": {
+            "kilometers": 11
+          }
+        }
+      },
+      {
+        "name": "Lisa",
+        "close_approach_data": {
+          "miss_distance": {
+            "kilometers": 66
+          }
+        }
+      }
+    ]
+  }
+}

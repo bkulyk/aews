@@ -1,5 +1,5 @@
 const requestPromise = require('request-promise');
-const R = require('lib/r');
+const R = require('../r');
 const { requestOptions: buildOptions } = require('./request_options');
 
 const logTimingInfo = (options, response, context) => {

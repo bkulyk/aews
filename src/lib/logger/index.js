@@ -1,7 +1,7 @@
 const dig = require('object-dig');
 const config = require('config');
 const { createLogger } = require('bunyan');
-const R = require('lib/r');
+const R = require('../r');
 const consoleStream = require('./console_stream');
 const prettyConsole = require('./pretty_console_stream');
 

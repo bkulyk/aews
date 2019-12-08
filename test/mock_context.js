@@ -1,6 +1,5 @@
 const config = require('config');
 const { isNil } = require('ramda');
-const { getOrCreateDataLoader } = require('../src/lib/data_loader');
 const { request } = require('../src/lib/request');
 const { addMetaData } = require('../src/lib/meta');
 const logger = require('../src/lib/logger');
@@ -27,7 +26,6 @@ const MockContext = function MockContext(data) {
   this.urlFetched = null;
   this.optionsRequested = {};
   this.callCount = 0;
-  this.getOrCreateDataLoader = getOrCreateDataLoader;
   this.fetch = (isNil(data) ? request : mockFetch);
   this.addMetaData = addMetaData;
   this.logger = logger.child();

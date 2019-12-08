@@ -1,7 +1,7 @@
 const { request_defaults: requestDefaults } = require('config');
 const AgentKeepAlive = require('agentkeepalive');
 const subs = require('subs');
-const R = require('lib/r');
+const R = require('../r');
 
 const agent = new AgentKeepAlive();
 const sslAgent = new AgentKeepAlive.HttpsAgent();

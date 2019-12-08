@@ -8,8 +8,6 @@ ENV NODE_ENV development
 RUN mkdir /app
 WORKDIR /app
 
-RUN npm install -g pm2
-
 COPY .npmrc /app/
 COPY package*.json /app/
 RUN npm install --production

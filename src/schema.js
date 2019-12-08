@@ -1,6 +1,6 @@
 const requireText = require('require-text');
 const { makeExecutableSchema } = require('graphql-tools');
-const R = require('lib/r');
+const R = require('./lib/r');
 const domains = require('./domains');
 const scalars = require('./scalars');
 const { resolvers: schemaDirectives, schema: schemaDirectiveSchema } = require('./directives');

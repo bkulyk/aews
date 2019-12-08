@@ -29,10 +29,6 @@ describe('middleware/build_req_context', () => {
     expect(res.start[1]).to.be.greaterThan(0);
   });
 
-  it('should add a function to get or create dataLoaders', async () => {
-    expect(typeof res.getOrCreateDataLoader).to.equal('function');
-  });
-
   it('should have a copy of the config', async () => {
     expect(res.config.client_id).to.equal('graphic');
   });
