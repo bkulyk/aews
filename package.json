@@ -19,7 +19,7 @@
   "dependencies": {
     "agentkeepalive": "^3.5.1",
     "apollo-errors": "^1.9.0",
-    "apollo-server-express": "^1.4.0",
+    "apollo-server-express": "^2.14.2",
     "bluebird": "^3.5.0",
     "body-parser": "^1.18.3",
     "bunyan": "^1.8.12",
